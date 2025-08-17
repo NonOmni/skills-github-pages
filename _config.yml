@@ -1,22 +1,12 @@
-<<<<<<< HEAD
-=======
 gem "jekyll", "~> 4.2.0"
 gem "bigdecimal", "~> 3.1" 
 gem "logger" 
 
->>>>>>> b1beb8d (重新配置了属性文件)
 title: 未全知
 tagline: 一个普通的个人博客
 url: https://skills-github-pages.github.io
 description: Just a stupid demo site.
 cover: /cover.jpg
-<<<<<<< HEAD
-
-gem "jekyll", "~> 4.2.0"
-gem "bigdecimal", "~> 3.1" 
-gem "logger" 
-=======
->>>>>>> b1beb8d (重新配置了属性文件)
 categories_path: /categories/
 tags_path: /tags/
 theme: jekyll-theme-quartz
