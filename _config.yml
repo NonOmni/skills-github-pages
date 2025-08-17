@@ -1,12 +1,12 @@
+gem "jekyll", "~> 4.2.0"
+gem "bigdecimal", "~> 3.1" 
+gem "logger" 
+
 title: 未全知
 tagline: 一个普通的个人博客
 url: https://skills-github-pages.github.io
 description: Just a stupid demo site.
 cover: /cover.jpg
-
-gem "jekyll", "~> 4.2.0"
-gem "bigdecimal", "~> 3.1" 
-gem "logger" 
 categories_path: /categories/
 tags_path: /tags/
 theme: jekyll-theme-quartz
