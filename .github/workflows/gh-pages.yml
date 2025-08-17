@@ -13,7 +13,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'   # 推荐使用 3.0 或 2.7
+          ruby-version: '2.7'   # 推荐使用 3.0 或 2.7
       - name: Install dependencies
         run: |
           gem install bundler
