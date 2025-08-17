@@ -5,7 +5,6 @@ description: Just a stupid demo site.
 cover: /cover.jpg
 categories_path: /categories/
 tags_path: /tags/
-theme: jekyll-theme-quartz
 plugins:
   - jekyll-remote-theme
 remote_theme: vfvong/jekyll-theme-quartz
