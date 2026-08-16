@@ -16,27 +16,22 @@
   <meta name="author" content="未全知">
   <meta name="keywords" content="">
   
-    <meta name="description" content="SHSetValueA函数原型12345678LSTATUS SHSetValueA(  [in]           HKEY    hkey,  [in, optional] LPCSTR  pszSubKey,  [in, optional] LPCSTR  pszValue,  [in]           DWORD   dwType,  [in, optional] LPCVOID p">
+    <meta name="description" content="Hexo 是一个快速、简洁且高效的静态博客框架。本文整理日常使用中最常用的 Hexo 命令。 安装与初始化123456789# 全局安装 Hexo CLInpm install -g hexo-cli# 初始化博客目录hexo init blog# 进入目录并安装依赖cd blognpm install  本地预览12345678# 启动本地服务器，默认 http:&#x2F;&#x2F;localhost:4000">
 <meta property="og:type" content="article">
-<meta property="og:title" content="设置上注册表中的值">
-<meta property="og:url" content="https://nonomni.github.io/skills-github-pages/2022/07/19/%E8%AE%BE%E7%BD%AE%E4%B8%8A%E6%B3%A8%E5%86%8C%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%80%BC/index.html">
+<meta property="og:title" content="hexo常用命令">
+<meta property="og:url" content="https://nonomni.github.io/skills-github-pages/2026/08/16/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/index.html">
 <meta property="og:site_name" content="未全知">
-<meta property="og:description" content="SHSetValueA函数原型12345678LSTATUS SHSetValueA(  [in]           HKEY    hkey,  [in, optional] LPCSTR  pszSubKey,  [in, optional] LPCSTR  pszValue,  [in]           DWORD   dwType,  [in, optional] LPCVOID p">
+<meta property="og:description" content="Hexo 是一个快速、简洁且高效的静态博客框架。本文整理日常使用中最常用的 Hexo 命令。 安装与初始化123456789# 全局安装 Hexo CLInpm install -g hexo-cli# 初始化博客目录hexo init blog# 进入目录并安装依赖cd blognpm install  本地预览12345678# 启动本地服务器，默认 http:&#x2F;&#x2F;localhost:4000">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://nonomni.github.io/skills-github-pages/2022/07/19/%E8%AE%BE%E7%BD%AE%E4%B8%8A%E6%B3%A8%E5%86%8C%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%80%BC/regedit_1.png">
-<meta property="og:image" content="https://nonomni.github.io/skills-github-pages/2022/07/19/%E8%AE%BE%E7%BD%AE%E4%B8%8A%E6%B3%A8%E5%86%8C%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%80%BC/regedit_2.png">
-<meta property="article:published_time" content="2022-07-19T06:48:20.000Z">
-<meta property="article:modified_time" content="2026-08-16T11:33:06.000Z">
+<meta property="article:published_time" content="2026-08-16T15:05:04.000Z">
+<meta property="article:modified_time" content="2026-08-16T15:08:22.000Z">
 <meta property="article:author" content="未全知">
-<meta property="article:tag" content="API">
-<meta property="article:tag" content="windows">
-<meta property="article:tag" content="registry">
+<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://nonomni.github.io/skills-github-pages/2022/07/19/%E8%AE%BE%E7%BD%AE%E4%B8%8A%E6%B3%A8%E5%86%8C%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%80%BC/regedit_1.png">
   
   
   
-  <title>设置上注册表中的值 - 未全知</title>
+  <title>hexo常用命令 - 未全知</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -201,7 +196,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="设置上注册表中的值"></span>
+            <span id="subtitle" data-typed-text="hexo常用命令"></span>
           
         </div>
 
@@ -212,8 +207,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-07-19 14:48" pubdate>
-          2022年7月19日 下午
+        <time datetime="2026-08-16 23:05" pubdate>
+          2026年8月16日 晚上
         </time>
       </span>
     
@@ -224,7 +219,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          759 字
+          813 字
         
       </span>
     
@@ -273,22 +268,58 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">设置上注册表中的值</h1>
+            <h1 style="display: none">hexo常用命令</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="SHSetValueA"><a href="#SHSetValueA" class="headerlink" title="SHSetValueA"></a>SHSetValueA</h2><h3 id="函数原型"><a href="#函数原型" class="headerlink" title="函数原型"></a>函数原型</h3><figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs angelscript">LSTATUS SHSetValueA(<br><span class="hljs-string">  [in]</span>           HKEY    hkey,<br><span class="hljs-string">  [in, optional]</span> LPCSTR  pszSubKey,<br><span class="hljs-string">  [in, optional]</span> LPCSTR  pszValue,<br><span class="hljs-string">  [in]</span>           DWORD   dwType,<br><span class="hljs-string">  [in, optional]</span> LPCVOID pvData,<br><span class="hljs-string">  [in]</span>           DWORD   cbData<br>);<br></code></pre></td></tr></table></figure>
-<h3 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h3><h4 id="hkey"><a href="#hkey" class="headerlink" title="hkey"></a>hkey</h4><p>打开秘钥的句柄，就是这里的目录位置</p>
-<img src="/skills-github-pages/2022/07/19/%E8%AE%BE%E7%BD%AE%E4%B8%8A%E6%B3%A8%E5%86%8C%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%80%BC/regedit_1.png" srcset="/skills-github-pages/img/loading.gif" lazyload class="" title="a">
-<h4 id="pszSubKey"><a href="#pszSubKey" class="headerlink" title="pszSubKey"></a>pszSubKey</h4><p>以 null 结尾的字符串的地址，它指定与值关联的子键的名称。这可以是NULL或指向空字符串的指针。在这种情况下，该值将添加到由hkey参数标识的键中。（要插入的子健目录，这里说可以串一个空的字符串或者指针，可以自己试一下会插在什么地方）</p>
-<h4 id="pszValue"><a href="#pszValue" class="headerlink" title="pszValue"></a>pszValue</h4><p>指定值的以 null 结尾的字符串的地址。该值可以是NULL。</p>
-<img src="/skills-github-pages/2022/07/19/%E8%AE%BE%E7%BD%AE%E4%B8%8A%E6%B3%A8%E5%86%8C%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%80%BC/regedit_2.png" srcset="/skills-github-pages/img/loading.gif" lazyload class="" title="b">
-<h4 id="dwType"><a href="#dwType" class="headerlink" title="dwType"></a>dwType</h4><p>要存储的数据类型。此参数必须是REG_SZ类型。有关详细信息，请参阅<a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/windows/win32/shell/hkey-type" title="注册表数据类型">注册表数据类型</a>。</p>
-<h4 id="pvData"><a href="#pvData" class="headerlink" title="pvData"></a>pvData</h4><p>指向包含要为指定值设置的数据的缓冲区的指针。该值可以是NULL。</p>
-<h4 id="cbData"><a href="#cbData" class="headerlink" title="cbData"></a>cbData</h4><p>pvData参数指向的缓冲区的长度（以字节为单位） 。如果数据是以空字符结尾的字符串，则此长度包括以空字符结尾的字符。</p>
-<h4 id="返回值"><a href="#返回值" class="headerlink" title="返回值"></a>返回值</h4><p>如果成功则返回 ERROR_SUCCESS；否则，Winerror.h 中定义的非零错误代码。您可以使用带有 FORMAT_MESSAGE_FROM_SYSTEM 标志的FormatMessage函数来检索错误的一般描述。</p>
-<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><figure class="highlight autohotkey"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs autohotkey"><span class="hljs-title">std::</span>wstring path = 路径<span class="hljs-comment">;</span><br><br>SHSetValue(<br><span class="hljs-built_in">	HKEY_LOCAL_MACHINE,</span><br><span class="hljs-title">	RegPathDef::</span>TQRUN_REG,<br>	L<span class="hljs-string">&quot;键&quot;</span>,<br><span class="hljs-built_in">	REG_SZ,</span><br>	path.c_str(),<br>	(path.length() * <span class="hljs-number">2</span> + <span class="hljs-number">2</span>)<br>)<span class="hljs-comment">;</span><br></code></pre></td></tr></table></figure>
+                <p>Hexo 是一个快速、简洁且高效的静态博客框架。本文整理日常使用中最常用的 Hexo 命令。</p>
+<h2 id="安装与初始化"><a href="#安装与初始化" class="headerlink" title="安装与初始化"></a>安装与初始化</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 全局安装 Hexo CLI</span><br>npm install -g hexo-cli<br><br><span class="hljs-comment"># 初始化博客目录</span><br>hexo init blog<br><br><span class="hljs-comment"># 进入目录并安装依赖</span><br><span class="hljs-built_in">cd</span> blog<br>npm install<br></code></pre></td></tr></table></figure>
+
+<h2 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 启动本地服务器，默认 http://localhost:4000</span><br>hexo server<br><span class="hljs-comment"># 简写</span><br>hexo s<br><span class="hljs-comment"># 指定端口</span><br>hexo server -p 5000<br><span class="hljs-comment"># 仅使用静态文件</span><br>hexo server -s<br></code></pre></td></tr></table></figure>
+
+<h2 id="新建内容"><a href="#新建内容" class="headerlink" title="新建内容"></a>新建内容</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 新建文章（默认布局 post）</span><br>hexo new <span class="hljs-string">&quot;文章标题&quot;</span><br>hexo new post <span class="hljs-string">&quot;文章标题&quot;</span><br><br><span class="hljs-comment"># 新建草稿</span><br>hexo new draft <span class="hljs-string">&quot;草稿标题&quot;</span><br><br><span class="hljs-comment"># 发布草稿</span><br>hexo publish <span class="hljs-string">&quot;草稿标题&quot;</span><br><br><span class="hljs-comment"># 新建页面（如关于、标签页）</span><br>hexo new page about<br></code></pre></td></tr></table></figure>
+
+<h2 id="生成与部署"><a href="#生成与部署" class="headerlink" title="生成与部署"></a>生成与部署</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 生成静态文件到 public/</span><br>hexo generate<br><span class="hljs-comment"># 简写</span><br>hexo g<br><br><span class="hljs-comment"># 清理缓存与已生成的文件</span><br>hexo clean<br><br><span class="hljs-comment"># 部署到远端</span><br>hexo deploy<br><span class="hljs-comment"># 简写</span><br>hexo d<br><br><span class="hljs-comment"># 常用组合：清理后重新生成并部署</span><br>hexo clean &amp;&amp; hexo g -d<br></code></pre></td></tr></table></figure>
+
+<h2 id="其他常用命令"><a href="#其他常用命令" class="headerlink" title="其他常用命令"></a>其他常用命令</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 查看 Hexo 版本</span><br>hexo version<br><br><span class="hljs-comment"># 列出站点信息</span><br>hexo list page   <span class="hljs-comment"># 列出页面</span><br>hexo list post   <span class="hljs-comment"># 列出文章</span><br>hexo list route  <span class="hljs-comment"># 列出路由</span><br><br><span class="hljs-comment"># 查看帮助</span><br>hexo <span class="hljs-built_in">help</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="常用参数"><a href="#常用参数" class="headerlink" title="常用参数"></a>常用参数</h2><table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>-p, --port</code></td>
+<td>指定端口</td>
+</tr>
+<tr>
+<td><code>-s, --static</code></td>
+<td>仅使用静态文件</td>
+</tr>
+<tr>
+<td><code>-d, --deploy</code></td>
+<td>生成后立即部署</td>
+</tr>
+<tr>
+<td><code>-g, --generate</code></td>
+<td>部署前先生成</td>
+</tr>
+<tr>
+<td><code>--draft</code></td>
+<td>显示草稿</td>
+</tr>
+<tr>
+<td><code>--debug</code></td>
+<td>输出调试信息</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>提示：<code>hexo</code> 命令需在博客根目录（包含 <code>_config.yml</code> 的目录）下执行。</p>
+</blockquote>
+
                 
               </div>
             
@@ -306,7 +337,7 @@
     
       <span class="category-chain">
         
-  <a href="/skills-github-pages/categories/windows/" class="category-chain-item">windows</a>
+  <a href="/skills-github-pages/categories/%E5%8D%9A%E5%AE%A2/" class="category-chain-item">博客</a>
   
   
 
@@ -321,11 +352,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/skills-github-pages/tags/API/">#API</a>
-      
-        <a href="/skills-github-pages/tags/windows/">#windows</a>
-      
-        <a href="/skills-github-pages/tags/registry/">#registry</a>
+        <a href="/skills-github-pages/tags/hexo/">#hexo</a>
       
     </div>
   
@@ -337,8 +364,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>设置上注册表中的值</div>
-      <div>https://nonomni.github.io/skills-github-pages/2022/07/19/设置上注册表中的值/</div>
+      <div>hexo常用命令</div>
+      <div>https://nonomni.github.io/skills-github-pages/2026/08/16/hexo常用命令/</div>
     </div>
     <div class="license-meta">
       
@@ -350,7 +377,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年7月19日</div>
+          <div>2026年8月16日</div>
         </div>
       
       
@@ -380,18 +407,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/skills-github-pages/2026/08/16/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" title="hexo常用命令">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">hexo常用命令</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/skills-github-pages/2022/07/19/C++%E6%A6%82%E5%BF%B5-%E7%B1%BB/" title="C++概念-类">
-                        <span class="hidden-mobile">C++概念-类</span>
+                      <a href="/skills-github-pages/2022/07/19/%E8%AE%BE%E7%BD%AE%E4%B8%8A%E6%B3%A8%E5%86%8C%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%80%BC/" title="设置上注册表中的值">
+                        <span class="hidden-mobile">设置上注册表中的值</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
